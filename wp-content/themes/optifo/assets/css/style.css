@@ -1,0 +1,769 @@
+:root {
+    /* Main Colors */
+    --primary: #ea645f;
+    --secondary: #0bceb2;  
+    --light-yellow: #ffe9a9;
+
+    /* Background Colors */
+    --bg-main: #3a2636;
+    --bg-primary: #ea645f;
+    --bg-primary-dark:#CB423D;
+    --bg-light-yellow: #ffe9a9;
+    --bg-dark-blue: #0c1735;
+
+    /* Transparent / Overlay Colors */
+    --overlay-light: #00000029;
+    --overlay-medium: #0000002b;
+    --overlay-pink-light: #ea645f21;
+    --overlay-orange-light: #d1583c26;
+    --overlay-soft-pink: #febbba5e;
+
+    /* font Family */
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-montaga: "Montaga", serif;
+    --font-oswald: "Oswald", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+    --font-georgia: Georgia, serif;
+    --font-raleway: "Raleway", sans-serif;
+}
+
+body{
+    overflow-x:hidden ;
+}
+
+/* Montserrat */
+.font-montserrat {
+    font-family: var(--font-montserrat);
+}
+
+/* Montaga */
+.font-montaga {
+    font-family: var(--font-montaga);
+}
+
+/* Oswald */
+.font-oswald {
+    font-family: var(--font-oswald);
+}
+
+/* Poppins */
+.font-poppins {
+    font-family: var(--font-poppins) ;
+}
+
+/* Georgia */
+.font-georgia {
+    font-family: var(--font-georgia);
+}
+
+/* Raleway */
+.font-raleway {
+    font-family: var(--font-raleway);
+}
+
+/* Text colors */
+.text-primary { color: var(--primary) !important;}
+.text-secondary { color: var(--secondary) !important; } 
+.text-light-yellow { color: var(--light-yellow) !important; }
+
+/* Background colors */
+.bg-main { background-color: var(--bg-main) !important; }
+.bg-primary { background-color: var(--bg-primary) !important; }
+.bg-primary-dark { background-color: var(--bg-primary-dark) !important; }
+.bg-light-yellow { background-color: var(--bg-light-yellow) !important; }
+.bg-dark-blue { background-color: var(--bg-dark-blue) !important; }
+
+/* Overlay / transparent backgrounds */
+.bg-overlay-light { background-color: var(--overlay-light) !important; }
+.bg-overlay-medium { background-color: var(--overlay-medium) !important; }
+.bg-overlay-pink { background-color: var(--overlay-pink-light) !important; }
+.bg-overlay-orange { background-color: var(--overlay-orange-light) !important; }
+.bg-overlay-soft-pink { background-color: var(--overlay-soft-pink) !important; }
+
+
+/* =========================================
+======= Bootstrap Custom Classes Start =====
+==========================================*/
+
+.font-6 {
+    font-size: 6px !important;
+}
+
+.font-7 {
+    font-size: 7px !important;
+}
+
+.font-8 {
+    font-size: 8px !important;
+}
+
+.font-9 {
+    font-size: 9px !important;
+}
+
+.font-10 {
+    font-size: 10px !important;
+}
+
+.font-11 {
+    font-size: 11px !important;
+}
+
+.font-12 {
+    font-size: 12px !important;
+}
+
+.font-13 {
+    font-size: 13px !important;
+}
+
+.font-14 {
+    font-size: 14px !important;
+}
+
+.font-15 {
+    font-size: 15px !important;
+}
+
+.font-16 {
+    font-size: 16px !important;
+}
+
+.font-17 {
+    font-size: 17px !important;
+}
+
+.font-18 {
+    font-size: 18px !important;
+}
+
+.font-19 {
+    font-size: 19px !important;
+}
+
+.font-20 {
+    font-size: 20px !important;
+}
+
+.font-21 {
+    font-size: 21px !important;
+}
+
+.font-22 {
+    font-size: 22px !important;
+}
+
+.font-23 {
+    font-size: 23px !important;
+}
+
+.font-24 {
+    font-size: 24px !important;
+}
+
+.font-25 {
+    font-size: 25px !important;
+}
+
+.font-26 {
+    font-size: 26px !important;
+}
+
+.font-27 {
+    font-size: 27px !important;
+}
+
+.font-28 {
+    font-size: 28px !important;
+}
+
+.font-29 {
+    font-size: 29px !important;
+}
+
+.font-30 {
+    font-size: 30px !important;
+}
+
+.font-31 {
+    font-size: 31px !important;
+}
+
+.font-32 {
+    font-size: 32px !important;
+}
+
+.font-33 {
+    font-size: 33px !important;
+}
+
+.font-34 {
+    font-size: 34px !important;
+}
+
+.font-35 {
+    font-size: 35px !important;
+}
+
+.font-36 {
+    font-size: 36px !important;
+}
+
+.font-37 {
+    font-size: 37px !important;
+}
+
+.font-38 {
+    font-size: 38px !important;
+}
+
+.font-39 {
+    font-size: 39px !important;
+}
+
+.font-40 {
+    font-size: 40px !important;
+}
+
+.font-41 {
+    font-size: 41px !important;
+}
+
+.font-42 {
+    font-size: 42px !important;
+}
+
+.font-43 {
+    font-size: 43px !important;
+}
+
+.font-44 {
+    font-size: 44px !important;
+}
+
+.font-45 {
+    font-size: 45px !important;
+}
+
+.font-46 {
+    font-size: 46px !important;
+}
+
+.font-47 {
+    font-size: 47px !important;
+}
+
+.font-48 {
+    font-size: 48px !important;
+}
+
+.font-49 {
+    font-size: 49px !important;
+}
+
+.font-50 {
+    font-size: 50px !important;
+}
+
+.font-70 {
+    font-size: 70px !important;
+}
+
+.letter-spacing-2 {
+    letter-spacing: 2px !important;
+}
+ 
+
+/* =======================================
+============ navbar Section CSS ========*/
+.custom-navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-link {
+    color: var(--white) !important;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.login-btn {
+    height: 44px;
+    width: 128px; 
+    line-height: 28px;
+}
+
+/* =======================================
+========== Hero Banner Section CSS =====*/
+.hero-section {
+    /* min-height: 100vh; */
+    padding: 175px 0px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(
+        109.1deg,
+        #211D35 -11.31%,
+        #402837 35.18%,
+        #402837 63.07%,
+        #342437 83.62%,
+        #272036 102.88%
+    );
+    color: white;
+}
+
+.badge-ai {
+    background: black;
+    color: var(--secondary);
+    padding: 5px 10px;
+}
+
+.badge-app {
+    background: black;
+    color: var(--secondary);
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-family: var(--font-oswald);
+}
+
+.hero-section h1 {
+    line-height:48px;
+}
+
+.banner_section .banner_image_content{
+    background: linear-gradient(90.15deg, rgba(59, 38, 55, 0.98) 0.14%, rgba(0, 0, 0, 0.6272) 99.89%);
+    width: 300px;
+    border-top-left-radius: 50px;
+    border: 1px solid #FFFFFF;
+    padding: 25px 20px 25px 25px;
+    top: 60px;
+    left: -100px;
+
+}
+
+.banner_section{
+    Width:422px;
+    Height:524px;
+    z-index: 0;
+    margin: 0 auto;
+}
+
+.banner_section::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 15px;
+    border: 2px solid #FFFFFFBA;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 100%;
+}
+
+.banner_section .banner_image_content span:first-child {
+    color: var(--primary);
+}
+
+.image_button_content{
+    position: absolute;
+    bottom: -64px;
+    right: -36px;
+}
+
+.image_button_content ul li ,
+.banner_section .banner_right_menu ul li{
+   padding-right: 11px;
+ 
+}
+
+.banner_right_menu{
+    position: absolute;
+  position: absolute;
+    transform: rotate(90deg);
+    bottom: 120px;
+    right: -220px;
+}
+
+/* =======================================
+========== Counter Section CSS =========*/
+.counter-section {
+    padding: 135px 0;
+}
+
+.counter-section .counter-item {
+    position: relative;
+    border-right: 1px solid #D0D0D0;
+    text-align: left;
+    padding: 50px;
+}
+
+
+.counter-section .row > div:first-child .counter-item {
+    border-left: 1px solid #D0D0D0;
+}
+
+.counter-section .counter-item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -1px;
+    width: 1px;
+    height: 50%;
+    background: #000;
+}
+
+.counter-section .row > div:first-child .counter-item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -1px;
+    width: 1px;
+    height: 50%;
+    background: #000;
+}
+  
+/* =======================================
+========== Why use Section CSS =========*/ 
+.why-use-section{
+    background: var(--bg-main);
+    padding:130px 0px;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.before-image,
+.after-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.before-text,
+.after-text {
+    position: absolute; 
+    color: var(--primary);
+    z-index: 4;
+    padding: 10px 20px;
+    width:109px;
+    height:34px;
+    line-height: 13px;
+    background-color: var(--bg-main);
+    transition: opacity 0.3s ease-in-out;
+    
+}
+
+.before-text {
+    left: 0px;
+    top: 0px;
+    z-index: 5;
+}
+
+.after-text {
+    right: 0px; 
+    bottom: 0px;
+    z-index: 3;
+}
+
+.after-image {
+    clip-path: inset(0 50% 0 0);
+}
+
+.slider-handle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0px;
+    height: 100%;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.slider-line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.pulse-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.pulse-container::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70px; 
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--primary); 
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+    animation: pulse 1.5s infinite;
+    z-index: 0;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1.8);
+        opacity: 0;
+    }
+}
+
+.slider-container,
+.before-image img,
+.after-image img {
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+}
+
+.slider-handle,
+.slider-line {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.info-box{
+    border: 1px solid #FFFFFF45;
+    padding: 22px;
+    border-radius: 10px;
+}
+.info-box ul li::marker {
+    color: #ffff;
+    font-size: 8px;
+}
+
+/* ========================================
+========== how to use Section CSS =======*/  
+.how-to-use-section {
+    padding: 100px 0; 
+}
+
+.video_wrap {
+    border-radius: 25px;
+    border: 5px solid #FFFFFF45;
+    position: relative;
+    /* overflow: hidden; */
+}
+ 
+
+.video_wrap .blur-left,
+.video_wrap .blur-right {
+    position: absolute;
+    top: 50%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+  
+}
+
+.video_wrap .blur-left {
+  left: -2px;
+}
+
+.video_wrap .blur-right {
+  right: 0;
+}
+
+.step_item{
+    position: relative;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+}
+
+.step_item .card-body span{
+    height: 46px;
+    width: 46px;
+    background: #D1583C26;
+    border-radius: 100%;
+    line-height: 46px;
+}
+
+.card.step_item::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 20px;   
+    height: 20px;
+    border-top: 2px solid red;
+    border-left: 2px solid red;
+    border-top-left-radius: 5px; 
+}
+
+.carousel-wrapper {
+  position: relative;
+}
+
+.carousel-wrapper::before,
+.carousel-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 42% !important;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* LEFT gradient */
+.carousel-wrapper::before {
+  left: 0;
+  background: linear-gradient(90deg, #FFFFFF 30.74%, rgba(255,255,255,0.6) 100%);
+}
+
+/* RIGHT gradient */
+.carousel-wrapper::after {
+  right: 0;
+  background: linear-gradient(270deg, #FFFFFF 30.74%, rgba(255,255,255,0.6) 100%);
+}
+/* 
+.carousel-wrapper .web_or_mobile .owl-item.active.center div::after{
+    content: '';
+    background-image: url("../img/mobile_view_bottom_layer.png");
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    position: absolute;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%);
+} */
+
+/* dashbaord Section  */
+.dashbaord_img::after{
+    content: '';
+    background-image: url("../img/dashbaord_bg_layer.png");
+    width: 100%;
+    height: 30px;
+    bottom: -69px;
+    left: 0;
+    right: 0;
+
+}
+
+/*=========================================
+====== Packs and pricing section CSS ====*/  
+.packs-and-pricing-section{
+    margin-top: 110px;
+    background-color: var(--bg-main);
+    padding: 100px 0px;
+}
+
+.packs-and-pricing-section .packs-and-pricing{
+    background-color: var(--overlay-light);
+    border-radius: 25px;
+    padding: 90px 20px 90px 20px;
+}
+
+.packs-and-pricing-section .packs-and-pricing h5{
+    color: var(--light-yellow);
+}
+
+.packs-and-pricing-section .packs-and-pricing button{
+    color:#0C1735;
+    height: 44px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top:35px ;
+}
+
+/*=======================================
+====== Studio quality section CSS =====*/  
+.studio-quality button.get_in_touch{
+    width: 160px;
+    height: 44px;
+    background-color: var(--primary);
+    border: 1px solid #FFFFFF;
+}
+
+.studio-quality button.explore_in_ai{
+    width: 160px;
+    height: 44px;
+    color: var(--primary);
+    border: 1px solid #FFFFFF;
+}
+
+/* .studio-quality_content_owl_carousel .item .custom-dots .dot{
+    left: 56px;
+    position: absolute;
+    top: 0;
+} */
+.studio-quality_content_owl_carousel .item .custom-dots span.dot {
+    background-color: #FFFFFF80;
+    height: 3px;
+    width: 15px;
+    display: block;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.studio-quality_content_owl_carousel .item .custom-dots span.dot.active{
+    background-color: #fff;
+}
+
+
+.worldwide-trust-section{
+    padding: 100px 0px 0px;
+    margin-top: 100px;
+}
+
+
+/* ========================================
+====== FEATURED IN logo section CSS =====*/  
+.featuree_in_logo{
+   padding: 120px 0px;
+}
+
+/* behind_right_left_carousel_wrapper */
+.behind_right_left_carousel_wrapper::before, 
+.behind_right_left_carousel_wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 190px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.behind_right_left_carousel_wrapper::before {
+    left: 0;
+    background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, #fff 100%);
+}
+
+.behind_right_left_carousel_wrapper::after {
+    right: 0;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, #fff 100%);
+}
